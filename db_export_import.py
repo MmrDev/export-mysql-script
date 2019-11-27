@@ -77,9 +77,9 @@ if __name__ == '__main__':
 
     db_url = 'localhost'
     db_user = 'root'
-    db_pass = 'Menta@123'
-    db_name = 'loyalty'
-    address = "/opt/dbBackUp/"
+    db_pass = '<yourPassword>'
+    db_name = '<dbName>'
+    address = "<exportPath>"
     file_name = address + db_name + '_' + format(date.today())  + '.sql'
 
     main()
