@@ -87,7 +87,7 @@ if __name__ == '__main__':
     db_url = 'localhost'
     db_port = '3306'
     db_user = 'root'
-    db_pass = 'Menta@123'
+    db_pass = your_password
     address = "/opt/dbBackUp/"
 
     main()
