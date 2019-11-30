@@ -44,7 +44,7 @@ class Db:
         return dumpcmd
 
 
-     def dbImport(self):
+    def dbImport(self):
         dumpcmd = "mysqldump " + " -u " + self.db_user + " -p" + self.db_pass + " " + self.db_name + " < " + pipes.quote(self.file_name)
         # i think its wrong TODO
         os.system(dumpcmd)
